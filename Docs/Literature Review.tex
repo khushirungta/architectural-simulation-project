@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{hyperref}
+
+\title{Literature Review}
+\author{Ayush Kachhadiya}
+\date{February 2025}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This literature review explores recent research on discrete-event simulation (DES) techniques applied to emergency room (ER) operations. The primary focus is optimizing patient flow, reducing waiting times, and improving resource allocation using tools such as SimPy. The review synthesizes methodologies, key findings, and identified research gaps to support the proposed simulation study for ER efficiency improvement.
+\end{abstract}
+
+\section{Introduction}
+Efficient emergency room (ER) operations are critical for providing timely medical care, reducing patient waiting times, and optimizing resource utilization. Overcrowding and delays in ERs are persistent challenges, necessitating data-driven decision-making approaches. Discrete-event simulation (DES) has emerged as a reliable method for analyzing healthcare processes and testing potential interventions in a controlled environment. This review examines recent research applying DES in ER optimization and discusses its relevance to the current study.
+
+\section{Literature Review}
+
+\subsection{Application of Discrete-Event Simulation in ER Optimization}
+Recent studies highlight the effectiveness of DES in modeling patient flow and assessing ER performance under different conditions. For instance, \cite{battu2022} developed a SimPy-based simulation model to identify bottlenecks and evaluate intervention strategies for reducing wait times. Similarly, \cite{serrano2021} conducted a comprehensive review of DES applications in healthcare, emphasizing its role in managing resource allocation and improving service efficiency.
+
+\subsection{Performance Metrics and Key Findings}
+Studies such as \cite{pinto2021} utilized DES to assess ER performance metrics, including average patient wait times, throughput rates, and resource utilization. Their findings indicate that strategic personnel allocation and dynamic triage adjustments significantly enhance operational efficiency. Additionally, \cite{angler2024} highlighted the importance of incorporating real-world variability in simulation models to improve predictive accuracy and applicability in clinical settings.
+
+\subsection{Enhancing Accessibility and Usability of DES Models}
+One challenge in implementing DES-based ER models is ensuring their usability for healthcare administrators. Research by \cite{monks2023} explored structuring DES models for web-based applications, facilitating wider accessibility and real-time decision-making support. Such advancements bridge the gap between theoretical modeling and practical implementation in hospital settings.
+
+\section{Research Gaps and Future Directions}
+Despite the proven benefits of DES in ER optimization, several gaps remain. Many studies rely on idealized assumptions regarding patient arrivals and staff performance, potentially limiting the applicability of findings in dynamic hospital environments. Future research should integrate machine learning techniques for more adaptive simulations and leverage real-time hospital data to enhance model accuracy. Additionally, incorporating patient-level variability, such as severity-based prioritization, remains an area for further exploration.
+
+\section{Conclusion}
+The reviewed literature underscores the effectiveness of DES in improving ER operations by optimizing patient flow and resource allocation. While current models provide valuable insights, future work should focus on increasing model adaptability and real-world applicability. The findings from this review will inform the proposed simulation study, ensuring alignment with existing research and addressing key limitations.
+
+
+
+
+
+
+
+
+\clearpage
+\begin{thebibliography}{99}
+\bibitem{battu2022} A. Battu, S. Venkataramanaiah, and R. Sridharan, "Patient Flow Optimization in an Emergency Department Using SimPy-Based Simulation Modeling and Analysis: A Case Study," Lecture notes in mechanical engineering, pp. 271–280, Nov. 2022, doi: \href{https://doi.org/10.1007/978-981-19-6032-1\_22}{10.1007/978-981-19-6032-1\_22}.
+\bibitem{serrano2021} J. I. V. Serrano, R. E. P. García, and L. E. C. Barrón, "Discrete-Event Simulation Modeling in Healthcare: A Comprehensive Review," International Journal of Environmental Research and Public Health, vol. 18, no. 22, p. 12262, Nov. 2021, doi: \href{https://doi.org/10.3390/ijerph182212262}{10.3390/ijerph182212262}.
+\bibitem{pinto2021} A. C. Pinto, B. S. Gonçalves, R. M. Lima, and J. Dinis-Carvalho, "Modeling, Assessment and Design of an Emergency Department of a Public Hospital through Discrete-Event Simulation," Applied Sciences, vol. 11, no. 2, p. 805, Jan. 2021, doi: \href{https://doi.org/10.3390/app11020805}{10.3390/app11020805}.
+\bibitem{angler2024} Y. Angler, A. Lossin, and O. Goetz, "The importance of discrete event simulation as a methodology for performance evaluation in the emergency department," Emergency Care Journal, Aug. 2024, doi: \href{https://doi.org/10.4081/ecj.2024.12562}{10.4081/ecj.2024.12562}.
+\bibitem{monks2023} T. Monks and A. Harper, "Improving the usability of open health service delivery simulation models using Python and web apps," NIHR open research, vol. 3, pp. 48–48, Dec. 2023, doi: \href{https://doi.org/10.3310/nihropenres.13467.2}{10.3310/nihropenres.13467.2}.
+\end{thebibliography}
+
+\end{document}
+
+
+\end{document}
